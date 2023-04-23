@@ -1,29 +1,38 @@
 body{
-    margin-left: 15em;
-    margin-right: 15em;
-}
+    display: flex;
+    flex-direction: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 
+}
+    /* Header */
 li{
     list-style: none;
 }
 
 a{
     text-decoration: none;
+    color: #E5E7EB;
 }
 
 .header{
+    background-color: #1F2937;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
 }
 .head-logo{
-
+    margin-left: 10em;
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: 900;
     display: flex;
     justify-content: flex-start;
 }
 
 .right-links{
+    margin-right: 10em;
     display: flex;
     justify-content: flex-end;
-    gap: 10px;
+    gap: 15px;
+    font-size: 18px;
 }
