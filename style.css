@@ -2,6 +2,7 @@ body{
     display: flex;
     flex-direction: column;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
 
 }
     /* Header */
@@ -38,33 +39,36 @@ a{
 }
 
     /* All sections */
-    
+
     .section{
         display: flex;
         padding-bottom: 4em;
+        margin-left: 15em;
+        margin-right: 15em;
     }
 
     /* Section 1 */
 
 
-.section.one{
+.color1{
     background-color: #1F2937;
 }
-.left-1{
-    margin-left: 15em;
+.L1{
+    
+    
 }
-h2{
+h2.L1{
     color: #F9FAF8;
     font-size: 48px;
     font-weight: 900;
 
 }
 
-p{
+p.L1{
     color: #E5E7EB;
     font-size: 18px;
 }
 
-button{
+button.L1{
     background-color: #3882F6;
 }
