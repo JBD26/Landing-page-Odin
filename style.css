@@ -37,10 +37,17 @@ a{
     font-size: 18px;
 }
 
+    /* All sections */
+    
+    .section{
+        display: flex;
+        padding-bottom: 4em;
+    }
+
     /* Section 1 */
 
-.section1{
-    display: flex;
+
+.section.one{
     background-color: #1F2937;
 }
 .left-1{
