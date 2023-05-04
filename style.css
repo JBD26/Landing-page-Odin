@@ -2,6 +2,7 @@ body{
     display: flex;
     flex-direction: column;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
    
 
 }
@@ -20,14 +21,17 @@ a{
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    padding-bottom: 5em;
+    flex: 0;
 }
 .head-logo{
-    margin-left: 10em;
+    margin-left: 6.5em;
     color: #F9FAF8;
     font-size: 24px;
     font-weight: 600;
     display: flex;
     justify-content: flex-start;
+    padding: 0px;
 }
 
 .right-links{
@@ -36,15 +40,17 @@ a{
     justify-content: flex-end;
     gap: 15px;
     font-size: 18px;
+    padding: 0px;
 }
 
     /* All sections */
 
     .section{
+        box-sizing: border-box;
         display: flex;
-        padding-bottom: 4em;
-        margin-left: 15em;
-        margin-right: 15em;
+        padding-bottom: 8em;
+        margin-left: 10em;
+        margin-right: 10em;
     }
 
     /* Section 1 */
@@ -52,10 +58,12 @@ a{
 
 .color1{
     background-color: #1F2937;
+    display: flex;
+    flex: 0;
 }
+
 .L1{
-    
-    
+    width: 70%;
 }
 h2.L1{
     color: #F9FAF8;
@@ -71,4 +79,60 @@ p.L1{
 
 button.L1{
     background-color: #3882F6;
+    border-radius: 8px;
+    padding: 5px 15px;
+    border-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: 600;
+    font-size: 19px;
+    max-width: 5.5em;
+}
+
+.R1{
+    background-color: #8e8f91;
+    color: #E5E7EB;
+    padding: 4px 20px;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Section 2 */
+
+.color2{
+    background-color: #F9FAF8;
+}
+
+.two{
+    display: flex;
+    flex-direction: column;
+}
+.subhead2{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    text-align: center;
+}
+
+.image{
+    box-sizing: border-box;
+    border: 4px;
+    border-style: solid;
+    border-color: #3882F6;
+    width: 150px;
+    height: 150px;
+    border-radius: 10%;
+    
+}
+
+.text{
+    width: 150px;
+    color: #4b4c4d;
+}
+
+.align2{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
