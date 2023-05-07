@@ -136,3 +136,9 @@ button.L1{
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
+
+    /* Section 3 */
+
+.color3{
+    background-color: #E5E7EB;
+}
