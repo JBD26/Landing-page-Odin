@@ -142,3 +142,27 @@ button.L1{
 .color3{
     background-color: #E5E7EB;
 }
+
+.three{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5em;
+    margin-left: 18em;
+    max-width: 70%;
+    gap: 15px;
+}
+
+.quote{
+    color: #1F2937;
+    font-style: italic;
+    font-size: 36px;
+    font-weight: 100;
+}
+
+.author{
+    color: #1F2937;
+    font-size: 18px;
+    font-weight: 900;
+    display: flex;
+    justify-content: end;
+}
