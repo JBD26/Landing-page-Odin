@@ -82,6 +82,7 @@ button.L1{
     border-radius: 8px;
     padding: 5px 15px;
     border-color: #3882F6;
+    border-style: solid;
     color: #F9FAF8;
     font-weight: 600;
     font-size: 19px;
@@ -165,4 +166,44 @@ button.L1{
     font-weight: 900;
     display: flex;
     justify-content: end;
+}
+
+.four{
+    background-color: #3882F6;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-around;
+    padding: 2% 10%;
+}
+
+button.R4{
+    border-style: solid;
+    background-color: #3882F6;
+    border-radius: 8px;
+    padding: 5px 19px;
+    border-color: #F9FAF8;
+    color: #F9FAF8;
+    font-weight: 600;
+    font-size: 19px;
+    max-width: 6em;
+    max-height: 2em;
+    display: flex;
+    align-self: last baseline;
+}
+
+p.L4{
+    font-size: 20px;
+}
+h1.L4{
+
+    margin: 0px;
+}
+
+.L4{
+    margin-top: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: last baseline;
+    padding: 2em;
 }
